@@ -1,0 +1,164 @@
+#app {
+    &.anuncios-on {
+        padding-top: 36px;
+    }
+}
+
+.anuncios-list {
+    min-height: 36px;
+    position: absolute;
+    top: 0;
+    .anuncios {
+        width: 100%;
+        min-height: 36px;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: fixed;
+        z-index: 9999;
+
+        &.critica {
+            background-color: #E22C2C;
+        }
+    
+        &.informativa {
+            background-color: #0F69C4;
+        }
+    
+        &.warning {
+            background-color: #E22C2C;
+        }
+    
+        p {
+            color: #FFFFFF;
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 15px;
+            margin: 0;
+        
+            .icono-anuncio {
+                margin-top: -4px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 1500px) and (orientation: landscape) {
+    #app {
+        &.anuncios-on {
+            padding-top: 50px;
+        }
+    }
+
+	.anuncios-list {
+        min-height: 50px;
+    }
+}
+
+
+
+
+
+// #app {
+//     &.anuncios-on {
+//       padding-top: 36px;
+//     }
+//   }
+  
+//   .anuncios-list {
+//       min-height: 36px;
+//       position: absolute;
+//       top: 0;
+//   }
+  
+//   .anuncios {
+//     width: 100%;
+//     min-height: 36px;
+//     margin: auto;
+//     padding-top: 10px;
+//     padding-bottom: 10px;
+//     position: fixed;
+//     z-index: 9999;
+  
+//     &.critica {
+//       background-color: #E22C2C;
+//     }
+  
+//     &.informativa {
+//       background-color: #0F69C4;
+//     }
+  
+//     &.warning {
+//       background-color: #E22C2C;
+//     }
+  
+//     p {
+//       color: #FFFFFF;
+//       font-family: 'Roboto';
+//       font-size: 16px;
+//       font-weight: 500;
+//       line-height: 15px;
+//       margin: 0;
+  
+//       .icono-anuncio {
+//         margin-top: -4px;
+//         margin-right: 5px;
+//       }
+//     }
+  
+//   }
+
+
+
+
+
+//   #app {
+// 	&.anuncios-on {
+// 		padding-top: 36px;
+// 	}
+// }
+
+// .anuncios-list {
+// 	min-height: 36px;
+// 	position: absolute;
+// 	top: 0;
+// }
+
+// .anuncios {
+// 	width: 100%;
+// 	margin: auto;
+// 	padding-top: 10px;
+// 	padding-bottom: 10px;
+// 	position: fixed;
+// 	z-index: 9999;
+
+
+// 	&.critica {
+// 		background-color: #e22c2c;
+// 	}
+
+// 	&.informativa {
+// 		background-color: #0f69c4;
+// 	}
+
+// 	&.warning {
+// 		background-color: #e22c2c;
+// 	}
+
+// 	p {
+// 		color: #ffffff;
+// 		font-family: 'Roboto';
+// 		font-size: 16px;
+// 		font-weight: 500;
+// 		line-height: 15px;
+// 		margin: 0;
+
+// 		.icono-anuncio {
+// 			margin-top: -1px;
+// 		}
+// 	}
+// }
